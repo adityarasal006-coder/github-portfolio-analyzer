@@ -1,10 +1,11 @@
-[theme]
-primaryColor = "#FF4B2B"
-backgroundColor = "#0F141E"
-secondaryBackgroundColor = "#1E1E1E"
-textColor = "#E0E0E0"
-font = "sans serif"
-
-[server]
-maxUploadSize = 10
-enableCORS = true
+# Method 1: Using echo (simple)
+echo '[theme]' > .streamlit/config.toml
+echo 'primaryColor = "#FF4B2B"' >> .streamlit/config.toml
+echo 'backgroundColor = "#0F141E"' >> .streamlit/config.toml
+echo 'secondaryBackgroundColor = "#1E1E1E"' >> .streamlit/config.toml
+echo 'textColor = "#E0E0E0"' >> .streamlit/config.toml
+echo 'font = "sans serif"' >> .streamlit/config.toml
+echo '' >> .streamlit/config.toml
+echo '[server]' >> .streamlit/config.toml
+echo 'maxUploadSize = 10' >> .streamlit/config.toml
+echo 'enableCORS = true' >> .streamlit/config.toml
